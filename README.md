@@ -2,7 +2,7 @@
 JoinHub was created to make it easier for **West Visayas State University (WVSU)** students to discover and join campus organizations.  
 From academic societies to creative circles, JoinHub connects you with communities that match your passions and goals.
 
-JoinHub is a **mobile application** designed to provide a centralized and user-friendly experience, helping students — especially freshmen — easily explore organizations, apply to join, and engage with their campus community through announcements and chat.
+JoinHub is a **mobile application** designed to provide a centralized and user-friendly experience, helping students — especially freshmen easily explore organizations, apply to join, and engage with their campus community through announcements and chat.
 
 ##  Project Overview
 **JoinHub** is a mobile application designed to provide a **centralized and user-friendly platform** for WVSU students to explore, apply to, and engage with student organizations.  
