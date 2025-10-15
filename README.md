@@ -15,3 +15,12 @@ With JoinHub, students can:
 - Chat and connect with fellow members in their chosen communities  
 
 JoinHub simplifies campus engagement by combining **discovery, communication, and participation** in one accessible mobile app.
+
+##  Features
+
+-  Personalized recommendations for organizations  
+-  Centralized list of official WVSU orgs  
+-  Apply and track org applications in-app  
+-  Receive announcements and chat with members  
+-  View upcoming events and campus activities  
+-  Real-time notifications for updates  
