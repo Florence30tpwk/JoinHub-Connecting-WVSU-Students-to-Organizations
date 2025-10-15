@@ -24,3 +24,11 @@ JoinHub simplifies campus engagement by combining **discovery, communication, an
 -  Receive announcements and chat with members  
 -  View upcoming events and campus activities  
 -  Real-time notifications for updates  
+
+##  How It Works
+
+1. **Sign Up / Log In** using student credentials.  
+2. **Select Interests** (academic, arts, volunteering, etc.).  
+3. **View Recommended Orgs** based on your preferences.  
+4. **Join or Apply** directly through the app.  
+5. **Stay Updated** via announcements and event reminders.  
