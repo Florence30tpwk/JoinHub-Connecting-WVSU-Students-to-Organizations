@@ -11,6 +11,7 @@ JoinHub is a student **mobile engagement platform** that serves as a friendly gu
 JoinHub aims to help **students** — especially freshmen, find their community, connect with like-minded peers, and enrich their college experience in a user-friendly and accessible way.
 
 With JoinHub, students can:
+
 - Browse and filter organizations based on interests and categories  
 - Apply to join organizations directly within the app  
 - Receive updates through announcements and event notifications  
@@ -20,14 +21,12 @@ JoinHub simplifies campus engagement by combining **discovery, communication, an
 
 ##  Features
 
-- Interest-based onboarding to personalize organization recommendations
-- Student profile setup including name, course, and year level
-- Smart organization suggestions based on selected interests
-- Direct application to student organizations
-- Dashboard view of joined organizations
-- Campus bulletin feed showing real-time org announcements
-- In-app group chat within each joined organization
-- Bottom navigation bar for smooth app navigation (Home, Explore, Chat, Notifications, Profile)
+-  Personalized recommendations for organizations  
+-  Centralized list of official WVSU organizations 
+-  Apply and track organization applications in-app  
+-  Receive announcements and chat with members  
+-  View upcoming events and campus activities  
+-  Real-time notifications for updates  
 
 ##  How It Works
 
