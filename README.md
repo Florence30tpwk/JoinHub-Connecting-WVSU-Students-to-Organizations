@@ -45,6 +45,19 @@ JoinHub simplifies campus engagement by combining **discovery, communication, an
 3. **View Recommended Orgs** based on your preferences.  
 4. **Join or Apply** directly through the website.  
 5. **Stay Updated** via announcements and event reminders.  
+##  Pages and Description  
+
+| *Page* | *Description* |
+|-----------|-----------------|
+| *Login / Sign Up Page* | Allows students to log in using their WVSU credentials or register a new account. Ensures secure and personalized access to the platform. |
+| *Home / Dashboard* | Displays an overview of joined organizations, upcoming events, and recent announcements from the campus community. |
+| *Organizations Page* | Lists all recognized WVSU organizations. Students can browse and filter by category (academic, arts, volunteer, etc.) to find those that match their interests. |
+| *Organization Profile Page* | Shows detailed information about a selected organization, including its description, officers, events, and a “Join” button for applications. |
+| *Applications Page* | Allows students to view, track, and manage their pending or approved membership applications. |
+| *Announcements Page* | A centralized bulletin board for organization updates, campus-wide news, and event reminders. |
+| *Events Page* | Displays all upcoming events and activities across organizations, with options to view details or bookmark them for reminders. |
+| *Chat / Community Page* | Enables real-time messaging among organization members for seamless communication and collaboration. |
+| *Profile Page* | Lets users edit their personal details, manage interests, and view their joined organizations. |
 
 ## Tech Stack
 
