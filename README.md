@@ -4,6 +4,9 @@
   <img width="2048" height="1066" alt="552884266_1497010184951328_7265860816299311570_n" src="https://github.com/user-attachments/assets/aefa4663-95fc-4f02-baac-2604dde88a8f" />
 </html>
 
+
+
+
 ##  System Description and Purpose
 **JoinHub** was created to make it easier for **West Visayas State University (WVSU)** students to discover and join campus organizations.  
 From academic societies to creative circles, JoinHub connects you with communities that match your passions and goals.
