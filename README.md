@@ -4,6 +4,7 @@
   <img width="2048" height="1066" alt="552884266_1497010184951328_7265860816299311570_n" src="https://github.com/user-attachments/assets/aefa4663-95fc-4f02-baac-2604dde88a8f" />
 </html>
 
+##  System Description and Purpose
 **JoinHub** was created to make it easier for **West Visayas State University (WVSU)** students to discover and join campus organizations.  
 From academic societies to creative circles, JoinHub connects you with communities that match your passions and goals.
 
@@ -14,7 +15,7 @@ JoinHub is a **web-based platform** designed to provide a centralized and user-f
 
 **JoinHub** is a student **web-based engagement platform** that serves as a friendly guide to connect students with organizations that align with their personal interests, academic goals, and extracurricular passions. Instead of feeling overwhelmed by numerous options and scattered information, students can set their preferences and receive *smart recommendations* for relevant organizations through an intuitive web interface. The platform features a *personalized dashboard* showing joined organizations, upcoming events, and a live campus bulletin. Students can apply to organizations directly, bookmark those they’re interested in, and stay updated with event schedules and announcements — all in one accessible online hub.  
 
-JoinHub aims to help **students** — especially freshmen, find their community, connect with like-minded peers, and enrich their college experience in a user-friendly and accessible way.
+JoinHub aims to help **students** — especially freshmen — find their community, connect with like-minded peers, and enrich their college experience in a user-friendly and accessible way.
 
 With JoinHub, students can:
 
