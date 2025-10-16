@@ -35,3 +35,13 @@ JoinHub simplifies campus engagement by combining **discovery, communication, an
 3. **View Recommended Orgs** based on your preferences.  
 4. **Join or Apply** directly through the app.  
 5. **Stay Updated** via announcements and event reminders.  
+
+##  Tech Stack
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend (Mobile)** | Flutter |
+| **Backend** | Node.js / Express.js |
+| **Database** | Firebase |
+| **UI/UX Design** | Figma / Canva |
+| **Version Control** | Git & GitHub |
