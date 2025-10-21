@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoinHub</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -47,30 +47,48 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
-        <img src="img/students.jpg" alt="Students">
-        <div class="about-text">
-            <div class="about-label">About JoinHub</div>
-            <h1>What is JoinHub?</h1>
-            <p>JoinHub is your gateway to the WVSU community — a platform where students can explore, apply to, and connect with organizations that align with their interests.</p>
-            <p>Whether you're passionate about academics, arts, sports, or community service, JoinHub makes it easy to find organizations that match your goals. Connect with like-minded peers, stay updated on events, and build meaningful relationships that will last throughout your university journey.</p>
-
-            <div class="points">
-                <div class="point">
-                    <div class="check-icon">✔</div>
-                    <div><strong>Discover</strong><br>Browse 50+ active organizations</div>
-                </div>
-                <div class="point">
-                    <div class="check-icon">✔</div>
-                    <div><strong>Connect</strong><br>Meet students with shared interests</div>
-                </div>
-                <div class="point">
-                    <div class="check-icon">✔</div>
-                    <div><strong>Engage</strong><br>Participate in events and activities</div>
-                </div>
-            </div>
+  <!-- ================= HERO SECTION ================= -->
+<section id="about" class="about-hero">
+    <div class="hero-content">
+        <div class="hero-image">
+            <img src="img/students.jpg" alt="Students working together" />
         </div>
-    </section>
+        <div class="hero-text">
+            <h1>About JoinHub</h1>
+            <p>
+                JoinHub is a web-based student engagement platform designed to connect students with
+                organizations that match their personal interests, academic goals, and extracurricular passions.
+                Instead of feeling lost among endless opportunities, students can easily discover and apply to
+                groups that inspire them — all in one place.
+            </p>
+        </div>
+    </div>
+</section>
+
+  <!-- ================= FEATURE CARDS ================= -->
+  <section class="features">
+    <div class="feature-card">
+      <div class="icon">
+       <img src="img/discover.png" alt="Discover icon">
+       </div>
+      <h3>Discover</h3>
+      <p>Find organizations that align with your interests and goals through smart recommendations.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">
+       <img src="img/connect.png" alt="Connect icon">
+       </div>
+      <h3>Connect</h3>
+      <p>Join communities, meet new people, and expand your academic and social network.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">
+      <img src="img/engage.png" alt="Engage icon">
+      </div>
+      <h3>Engage</h3>
+      <p>Stay updated on events, announcements, and opportunities with ease and convenience.</p>
+    </div>
+  </section>
 
     <!-- Features Section -->
     <section id="features" class="features-section">
@@ -195,7 +213,7 @@
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <p>hello@joinhub.edu</p>
+                            <p>joinHub@wvsu.edu.ph</p>
                         </div>
                     </div>
 
@@ -205,7 +223,7 @@
                         </div>
                         <div>
                             <h4>Phone</h4>
-                            <p>+1 (555) 123-4567</p>
+                            <p>+1(555)123-4567</p>
                         </div>
                     </div>
 
@@ -215,7 +233,7 @@
                         </div>
                         <div>
                             <h4>Address</h4>
-                            <p>123 University Drive<br>WVSU Campus</p>
+                            <p> 512 Univesity Center<br>WVSU-Main Campus</p>
                         </div>
                     </div>
                 </div>
@@ -251,5 +269,70 @@
             </div>
         </div>
     </section>
+
+ <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col brand">
+        <div class="footer-logo">
+           <img src="img/jh_y.png" alt="JoinHub Logo" />
+          <h2>JoinHub</h2>
+        </div>
+        <p>
+          Empowering students to discover, connect, and engage with organizations that match their goals and passions.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutpage.html">About</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="organizations.html">Organizations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Student Portal</a></li>
+          <li><a href="#">WVSU Website</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Get In Touch</h3>
+        <p>Email: <a href="mailto:joinHub@wvsu.edu.ph">joinHub@wvsu.edu.ph</a> <br>(We reply within 24 hours)</p>
+        <p>Address:<br>West Visayas State University,<br>Iloilo City, Philippines</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 JoinHub | West Visayas State University Student Platform</p>
+      <div class="utility-links">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+</footer>
+    <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <script>
+    const backToTop = document.getElementById("backToTop");
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
 </body>
 </html>
+
