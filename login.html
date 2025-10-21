@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoinHub | Login</title>
+    <link rel="icon" href="images/logo.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            background-color: #2233c5;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #1b2bb0;
+        }
+
+        .login-box {
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            height: 45px;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            color: #2233c5;
+            font-weight: 700;
+        }
+
+        h2 {
+            color: #1d1d7a;
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: #2233c5;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2233c5;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #1b2bb0;
+        }
+
+        .signup-text {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .signup-text a {
+            color: #2233c5;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .signup-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">← Back to Home</a>
+
+    <div class="login-box">
+        <div class="logo">
+            <img src="images/logo.png" alt="JoinHub Logo">
+            <h1>JoinHub</h1>
+        </div>
+        <h2>Welcome Back</h2>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div class="signup-text">
+            Don’t have an account? <a href="signup.html">Sign up here</a>
+        </div>
+    </div>
+</body>
+</html>
