@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoinHub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="img/jh_logo.png" alt="JoinHub Logo" class="logo-icon">
+            <span>JoinHub</span>
+        </div>
+
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#organizations">Organizations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="join-btn">Join Now</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>
+                    <span class="line1">Find your people.</span><br>
+                    <span class="line2">Join your purpose.</span>
+                </h1>
+                <p>JoinHub helps WVSU students discover and connect with organizations that match their passions and goals.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary" onclick="alert('Get Started clicked!')">Get Started</button>
+                    <button class="btn-secondary" onclick="alert('Learn More clicked!')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <img src="img/students.jpg" alt="Students">
+        <div class="about-text">
+            <div class="about-label">About JoinHub</div>
+            <h1>What is JoinHub?</h1>
+            <p>JoinHub is your gateway to the WVSU community — a platform where students can explore, apply to, and connect with organizations that align with their interests.</p>
+            <p>Whether you're passionate about academics, arts, sports, or community service, JoinHub makes it easy to find organizations that match your goals. Connect with like-minded peers, stay updated on events, and build meaningful relationships that will last throughout your university journey.</p>
+
+            <div class="points">
+                <div class="point">
+                    <div class="check-icon">✔</div>
+                    <div><strong>Discover</strong><br>Browse 50+ active organizations</div>
+                </div>
+                <div class="point">
+                    <div class="check-icon">✔</div>
+                    <div><strong>Connect</strong><br>Meet students with shared interests</div>
+                </div>
+                <div class="point">
+                    <div class="check-icon">✔</div>
+                    <div><strong>Engage</strong><br>Participate in events and activities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h1>Why JoinHub?</h1>
+        <p>Everything you need to discover, join, and engage with your university community</p>
+
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-regular fa-compass"></i></div>
+                <h3>Personalized Recommendations</h3>
+                <p>Get organization suggestions based on your interests and academic profile.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-regular fa-clipboard"></i></div>
+                <h3>Centralized Org List</h3>
+                <p>Browse all WVSU organizations in one convenient location.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-regular fa-folder-open"></i></div>
+                <h3>Application Tracking</h3>
+                <p>Track your membership applications and stay updated on their status.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-regular fa-bell"></i></div>
+                <h3>Real-time Announcements</h3>
+                <p>Receive instant updates and chat with organization members.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                <h3>Upcoming Events</h3>
+                <p>Never miss an event with our comprehensive calendar and reminders.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-laptop"></i></div>
+                <h3>Interactive Interface</h3>
+                <p>Enjoy a seamless, user-friendly experience on any device.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizations Section -->
+    <section id="organizations" class="org-section">
+        <h1>Explore Organizations</h1>
+        <p>Discover academic, cultural, and interest-based organizations — from university-wide to college-based communities.</p>
+
+        <div class="filters">
+            <button class="active">All</button>
+            <button>Academic</button>
+            <button>Arts</button>
+            <button>Sports</button>
+            <button>Cultural</button>
+            <button>Service</button>
+        </div>
+
+        <div class="org-grid">
+            <div class="card academic">
+                <div class="logo-box">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <h3>Academic</h3>
+                <p>Subject-specific organizations and academic clubs</p>
+            </div>
+
+            <div class="card arts">
+                <div class="logo-box">
+                    <i class="fa-solid fa-paint-brush"></i>
+                </div>
+                <h3>Arts</h3>
+                <p>Creative and performing arts organizations</p>
+            </div>
+
+            <div class="card volunteering">
+                <div class="logo-box">
+                    <i class="fa-solid fa-hands-helping"></i>
+                </div>
+                <h3>Volunteering</h3>
+                <p>Community service and outreach programs</p>
+            </div>
+
+            <div class="card sports">
+                <div class="logo-box">
+                    <i class="fa-solid fa-basketball"></i>
+                </div>
+                <h3>Sports</h3>
+                <p>Athletic teams and sports clubs</p>
+            </div>
+
+            <div class="card cultural">
+                <div class="logo-box">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <h3>Cultural</h3>
+                <p>Cultural heritage and diversity organizations</p>
+            </div>
+
+            <div class="card interest">
+                <div class="logo-box">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h3>Interest-based</h3>
+                <p>Hobby and special interest groups</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Have questions about JoinHub? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@joinhub.edu</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 University Drive<br>WVSU Campus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help you..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
